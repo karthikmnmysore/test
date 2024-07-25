@@ -30,5 +30,6 @@ jobs:
         node-version: '14'
 
     - name: Run tests
+      run: ls
       env:
         NODE_ENV: ${{ github.event.inputs.environment }}
